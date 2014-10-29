@@ -26,7 +26,7 @@ Bundle 'L9'
 Bundle 'FuzzyFinder'
 Bundle 'The-NERD-tree'
 Bundle 'taglist.vim'
-Bundle 'bufexplorer.zip'
+Bundle 'jlanzarotta/bufexplorer'
 Bundle 'DirDiff.vim'
 Bundle 'git://github.com/wesleyche/SrcExpl.git'
 Bundle 'SuperTab'
@@ -41,7 +41,7 @@ Bundle 'https://github.com/dhruvasagar/vim-table-mode.git'
 "주석해제: \<space>
 Bundle 'The-NERD-Commenter'
 Bundle 'AutoComplPop'
-
+Bundle 'git://github.com/altercation/vim-colors-solarized.git'
 filetype plugin indent on     " required!
 
 "====================================================
@@ -265,3 +265,10 @@ set tags=tags;/
 "= Check Symbol
 "====================================================
 source ~/vimconfig/plugins/checksymbol.vim
+"====================================================
+""= solarized scheme
+"====================================================
+syntax enable
+set t_Co=256
+"let g:solarized_termcolors=256
+colorscheme solarized
